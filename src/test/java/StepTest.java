@@ -16,7 +16,7 @@ public class StepTest {
     private static final int ISSUE = 1;
 
     @Test
-    void TestStepSelenide() {
+    void testStepSelenide() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем страницу Selenide в GitHub", ()-> {
